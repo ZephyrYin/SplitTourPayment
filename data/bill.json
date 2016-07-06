@@ -1,0 +1,10 @@
+{"bill":[
+    {"creditor":"yxy", "itemName":"walmart", "cost":"200.69", "include":"all", "exclude":""},
+    {"creditor":"yxy", "itemName":"Taco Johb", "cost":"57.40", "include":"all", "exclude":""},
+    {"creditor":"yxy", "itemName":"Pizza Time", "cost":"73.00", "include":"all", "exclude":""},
+    {"creditor":"yxy", "itemName":"Famous Dave", "cost":"113.74", "include":"all", "exclude":"lbj"},
+    {"creditor":"yxy", "itemName":"StoneCreek Lodge", "cost":"183.18", "include":"zbx,ck,xl", "exclude":""},
+    {"creditor":"yxy", "itemName":"StoneCreek Lodge", "cost":"173.20", "include":"yxy,lbj", "exclude":""},
+    {"creditor":"ck", "itemName":"Rental Car", "cost":"553.18", "include":"all", "exclude":"lbj"},
+    {"creditor":"ck", "itemName":"gas", "cost":"78.35", "include":"all", "exclude":"lbj"}
+]}
