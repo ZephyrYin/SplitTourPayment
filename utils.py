@@ -73,7 +73,6 @@ def calculatePayMent(persons, bill):
     for person in persons:
         person_dict[person.name] = person
     for b in bill:
-        print(b.creditor)
         if not b.creditor in person_dict:
             print(b.creditor + ' not found')
             return

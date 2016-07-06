@@ -3,7 +3,7 @@ class BillItem(object):
     def __init__(self, creditor, item_name, cost, scope):
         self.creditor = creditor
         self.item_name = item_name
-        self.cost = cost                    # float
+        self.cost = cost
         self.scope = scope                  # list of person name
 
     def show(self):
