@@ -11,6 +11,6 @@ class Person(object):
         print('name: ' + self.name)
         for pay_method in self.pay_methods:
             print('     payMethod: ' + pay_method)
-        print('     balance:   ' + str(self.balance))
+        print('     balance:   ' + str(format(self.balance, '.2f')))
         for person in self.owe:
-            print('     owe:       ' +  person + ' ' + str(format(self.owe[person], '.2f')))
+            print('     owe:       ' + person + ' ' + str(format(self.owe[person], '.2f')))

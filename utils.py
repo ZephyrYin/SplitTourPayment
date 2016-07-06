@@ -77,7 +77,6 @@ def calculatePayMent(persons, bill):
             print(b.creditor + ' not found')
             return
         cost = float(b.cost)
-        person_dict[b.creditor].balance += cost
         unit_price = cost/len(b.scope)
         for person in b.scope:
             if not person == b.creditor:        # skip self
@@ -90,4 +89,13 @@ def calculatePayMent(persons, bill):
                         owe[b.creditor] = unit_price
                     else:
                         owe[b.creditor] += unit_price
-                    person_dict[person].balance -= unit_price
+                    person_dict[person].balance -= unit_price           # person pay to creditor
+                    person_dict[b.creditor].balance += unit_price       # creditor gain money
+
+def check(persons):
+    total = 0.0
+    for person in persons:
+        total += person.balance
+    print('error: ' + str(format(total, '.2f')))
+    if(total > 1.0):
+        print('ni dou wo?')

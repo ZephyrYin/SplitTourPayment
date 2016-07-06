@@ -15,3 +15,5 @@ print('')
 print('Payments')
 for person in persons:
     person.show()
+
+utils.check(persons)
