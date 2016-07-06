@@ -16,4 +16,6 @@ print('Payments')
 for person in persons:
     person.show()
 
+print('')
 utils.check(persons)
+utils.summary(bill, persons)

@@ -98,9 +98,18 @@ def calculatePayMent(persons, bill):
                     person_dict[person].balance -= unit_price           # person pay to creditor
 
 def check(persons):
-    total = 0.0
+    error = 0.0
     for person in persons:
-        total += person.balance
-    print('error: ' + str(format(total, '.2f')))
-    if(abs(total) > 1.0):
+        error += person.balance
+    print('error: ' + str(format(error, '.2f')))
+    if(abs(error) > 1.0):
         print('ni dou wo?')
+
+def summary(bill, persons):
+    total = 0.0
+    for b in bill:
+        total += float(b.cost)
+    unit_cost = total/len(persons)
+    print('trip summary')
+    print('total cost:      ' + str(format(total, '.2f')))
+    print('unit cost:       ' + str(format(unit_cost, '.2f')))
