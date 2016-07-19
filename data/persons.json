@@ -1,12 +1,12 @@
 {"persons":[
-    {"name":"yin_yi", "payMethods":"chase: zephyryin@gmail.com,cash: 6316827988"},
-    {"name":"chen_kan", "payMethods":"chase: chemkanck1990@gmail.com,cash: 9172973901"},
+    {"name":"yin_yi", "payMethods":"chase zephyryin@gmail.com,cash 6316827988"},
+    {"name":"chen_kan", "payMethods":"chase chemkanck1990@gmail.com,cash 9172973901"},
     {"name":"foo", "payMethods":""},
     {"name":"YUI ", "payMethods":""},
-    {"name":"koby ", "payMethods":"cash: KobyBi"},
-    {"name":" frank ", "payMethods":"cash: FrankWiz"},
+    {"name":"koby ", "payMethods":"cash KobyBi"},
+    {"name":" frank ", "payMethods":"cash FrankWiz"},
     {"name":"tuzi", "payMethods":""},
-    {"name":"alex", "payMethods":"cash: ZhongweiLi"},
+    {"name":"alex", "payMethods":"cash ZhongweiLi"},
     {"name":"xue_jie", "payMethods":""},
-    {"name":"sophie", "payMethods":""}
+    {"name":"sophie", "payMethods":"cash shutanSophie"}
 ]}
