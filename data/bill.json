@@ -1,11 +1,8 @@
 {"bill":[
-    {"creditor":"yxy", "itemName":"walmart", "cost":"200.69", "include":"all", "exclude":""},
-    {"creditor":"yxy", "itemName":"Taco Johb", "cost":"57.40", "include":"all", "exclude":""},
-    {"creditor":"yxy", "itemName":"Pizza Time", "cost":"73.00", "include":"all", "exclude":""},
-    {"creditor":"yxy", "itemName":"Famous Dave", "cost":"113.74", "include":"all", "exclude":"lbj"},
-    {"creditor":"yxy", "itemName":"Holiday Inn", "cost":"454", "include":"yxy,lbj", "exclude":""},
-    {"creditor":"yxy", "itemName":"StoneCreek Lodge", "cost":"183.18", "include":"zbx,ck,xl", "exclude":""},
-    {"creditor":"yxy", "itemName":"StoneCreek Lodge", "cost":"173.20", "include":"yxy,lbj", "exclude":""},
-    {"creditor":"ck", "itemName":"Rental Car", "cost":"553.18", "include":"all", "exclude":"lbj"},
-    {"creditor":"ck", "itemName":"gas", "cost":"78.35", "include":"all", "exclude":"lbj"}
+    {"creditor":"koby", "itemName":"hotel", "cost":"1441", "include":"all", "exclude":""},
+    {"creditor":"chen_kan ", "itemName":"kayaking_0717", "cost":"120", "include":"chen_kan,yin_yi,foo,xue_jie", "exclude":""},
+    {"creditor":"alex", "itemName":"dinner_0717", "cost":"125", "include":"all", "exclude":"YUI,koby,frank"},
+    {"creditor":" sophie", "itemName":"jet_ski_0717", "cost":"140", "include":"alex,sophie", "exclude":""},
+    {"creditor":" sophie ", "itemName":"buffet_0716", "cost":"427", "include":"all", "exclude":""},
+    {"creditor":"frank", "itemName":"food_wine", "cost":"84", "include":"all", "exclude":""}
 ]}
