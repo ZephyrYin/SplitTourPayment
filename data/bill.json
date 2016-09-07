@@ -1,8 +1,11 @@
 {"bill":[
-    {"creditor":"koby", "itemName":"hotel", "cost":"1441", "include":"all", "exclude":""},
-    {"creditor":"chen_kan ", "itemName":"kayaking_0717", "cost":"120", "include":"chen_kan,yin_yi,foo,xue_jie", "exclude":""},
-    {"creditor":"alex", "itemName":"dinner_0717", "cost":"125", "include":"all", "exclude":"YUI,koby,frank"},
-    {"creditor":" sophie", "itemName":"jet_ski_0717", "cost":"140", "include":"alex,sophie", "exclude":""},
-    {"creditor":" sophie ", "itemName":"buffet_0716", "cost":"427", "include":"all", "exclude":""},
-    {"creditor":"frank", "itemName":"food_wine", "cost":"84", "include":"all", "exclude":""}
+    {"creditor":"yin_yi", "itemName":"last_dinner", "cost":"77.1", "include":"all", "exclude":"zhi"},
+    {"creditor":"zhi", "itemName":"car_rental", "cost":"334.78", "include":"all", "exclude":""},
+    {"creditor":"zhi", "itemName":"lady_M", "cost":"107.64", "include":"all", "exclude":""},
+    {"creditor":"zhi", "itemName":"hot_n_juicy", "cost":"126.10", "include":"all", "exclude":""},
+    {"creditor":"zhi", "itemName":"hotpot_nine", "cost":"85.89", "include":"all", "exclude":""},
+    {"creditor":"zhi", "itemName":"gas", "cost":"38.12", "include":"all", "exclude":""},
+    {"creditor":"jia_lin", "itemName":"gas", "cost":"50", "include":"all", "exclude":""},
+    {"creditor":"dou_qian", "itemName":"hotel", "cost":"86", "include":"all", "exclude":""},
+    {"creditor":"dou_qian", "itemName":"parking", "cost":"18", "include":"all", "exclude":""}
 ]}

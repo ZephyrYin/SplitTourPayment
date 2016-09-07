@@ -104,6 +104,27 @@ def calculatePayMent(persons, bill):
                         owe[b.creditor] += unit_price
                     person_dict[person].balance -= unit_price           # person pay to creditor
 
+def optimize(persons):
+    person_dict = {}
+    for person in persons:
+        person_dict[person.name] = person
+    for person in persons:
+        for peer_name in person.owe.keys():
+            peer_person = person_dict[peer_name]
+            if person.name in peer_person.owe:
+                common_part = min(person.owe[peer_name], peer_person.owe[person.name])
+
+                person.owe[peer_name] -= common_part
+                peer_person.owe[person.name] -= common_part
+                # remove item if debt is 0
+                if peer_person.owe[person.name] == 0:
+                    del peer_person.owe[person.name]
+        # remove item if debt is 0
+        remove = [p for p,v in person.owe.items() if v == 0]
+        for p in remove:
+            del person.owe[p]
+
+
 def check(persons):
     error = 0.0
     for person in persons:

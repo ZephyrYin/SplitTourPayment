@@ -10,6 +10,7 @@ for b in bill:
     b.show()
 
 utils.calculatePayMent(persons, bill)
+utils.optimize(persons)
 
 print('')
 print('Payments')
